@@ -1,0 +1,169 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  padding: 13px 36px;
+  margin-top: 1px;
+  display: inline-block;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+  z-index: 10;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100px;
+}
+
+.menu__list-item {
+  display: inline-block;
+}
+
+.menu__list-item + .menu__list-item {
+  padding-left: 40px;
+}
+
+.menu__list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.main {
+  background: url(../img/main-br.jpg) no-repeat center/cover;
+  height: 100vh;
+}
+
+.main__inner {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main__info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main__title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  max-width: 829px;
+  margin: 0 auto;
+}
+
+.main__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.services {
+  padding: 105px 0;
+}
+
+.services__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #323232;
+  max-width: 739px;
+  margin: 0 auto 50px;
+}
+
+.services__text {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.services__list-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.services__list-img {
+  border: 1px solid #4985FF;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.services__list-text {
+  padding: 39px 0 0 27px;
+}
+
+.services__list-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.services__list-info {
+  font-size: 14px;
+  line-height: 19px;
+  color: #999999;
+  width: 193px;
+}
+
+.services__btn {
+  display: block;
+  margin: 55px auto 0;
+}

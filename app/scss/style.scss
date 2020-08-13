@@ -1,0 +1,118 @@
+@import "vars";
+@import "global";
+
+.header{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  border-bottom: 1px solid rgba(#A1A1A1, 0.5);
+  z-index: 10;
+  &__inner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100px;
+  }
+}
+
+.menu{
+  &__list-item{
+    display: inline-block;
+    & + .menu__list-item{
+      padding-left: 40px;
+    }
+  }
+  &__list-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px
+  }
+}
+
+.main{
+  background: url(../img/main-br.jpg) no-repeat center/cover;
+  height: 100vh;
+  &__inner{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  &__info{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__title{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    max-width: 829px;
+    margin: 0 auto;
+  }
+  &__btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+}
+
+.services{
+  padding: 105px 0;
+  &__title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+    max-width: 739px;
+    margin: 0 auto 50px;
+  }
+  &__text{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: $text-color;
+    max-width:730px;
+    margin: 0 auto;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  &__list-item{
+    display: flex;
+    align-items: flex-start;
+  }
+  &__list-img{
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+    padding: 25px;
+  }
+  &__list-text{
+    padding: 39px 0 0 27px;
+  }
+  &__list-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 12px;
+  }
+  &__list-info{
+    font-size: 14px;
+    line-height: 19px;
+    color: $text-color;
+    width: 193px;
+  }
+  &__btn{
+    display: block;
+    margin: 55px auto 0;
+  }
+}

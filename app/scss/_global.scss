@@ -42,6 +42,14 @@ body{
   font-weight: bold;
   font-size: 36px;
   line-height: 53px;
+    @media (max-width: 768px){
+      font-size: 27px;
+      line-height: 36px;
+    }
+    @media (max-width: 425px){
+      font-size: 20px;
+      line-height: 26px;
+    }
 }
 .line-bot{
   border-bottom: 1px solid #E0E0E0;
